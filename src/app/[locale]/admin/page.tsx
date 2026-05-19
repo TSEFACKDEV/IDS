@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import { FileText, Users, Clock, CheckCircle, XCircle, Calendar, TrendingUp, ArrowRight } from 'lucide-react';
-import type { Inscription } from '@/generated/prisma';
+import type { Inscription } from '@prisma/client';
 
 type StatutInscription = 'EN_ATTENTE' | 'CONFIRMEE' | 'ANNULEE';
 

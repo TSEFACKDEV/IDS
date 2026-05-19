@@ -4,8 +4,7 @@ import { notFound } from 'next/navigation';
 import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import { FileText, Search, Filter } from 'lucide-react';
-import type { Inscription } from '@/generated/prisma';
-import { Prisma } from '@/generated/prisma';
+import { type Inscription, Prisma } from '@prisma/client';
 
 type StatutInscription = 'EN_ATTENTE' | 'CONFIRMEE' | 'ANNULEE';
 
