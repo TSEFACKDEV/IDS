@@ -1,0 +1,8 @@
+<svg xmlns="http://w3.org" width="500" height="300" viewBox="0 0 5 3">
+  <!-- Bande Noire -->
+  <rect width="5" height="1" fill="#000000" y="0"/>
+  <!-- Bande Rouge -->
+  <rect width="5" height="1" fill="#DD0000" y="1"/>
+  <!-- Bande Or -->
+  <rect width="5" height="1" fill="#FFCC00" y="2"/>
+</svg>

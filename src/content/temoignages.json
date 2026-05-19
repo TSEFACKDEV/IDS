@@ -1,0 +1,56 @@
+{
+  "temoignages": [
+    {
+      "id": "1",
+      "nom": "Fatoumata Diallo",
+      "role": "Étudiante en médecine — Université de Yaoundé",
+      "note": 5,
+      "photo": "/images/temoignages/temoignage-1.jpg",
+      "fr": {
+        "texte": "Grâce à IDS Cameroun, j'ai obtenu mon certificat B2 en seulement 8 mois. Les professeurs sont excellents et très motivants. Aujourd'hui je suis admise à l'Université de Cologne. Un rêve devenu réalité !"
+      },
+      "de": {
+        "texte": "Dank IDS Kamerun habe ich mein B2-Zertifikat in nur 8 Monaten erhalten. Die Lehrer sind ausgezeichnet und sehr motivierend. Heute bin ich an der Universität Köln zugelassen — ein Traum, der wahr wurde!"
+      }
+    },
+    {
+      "id": "2",
+      "nom": "Jean-Baptiste Nguemo",
+      "role": "Ingénieur en TIC — Douala",
+      "note": 5,
+      "photo": "/images/temoignages/temoignage-2.jpg",
+      "fr": {
+        "texte": "Les cours en ligne d'IDS m'ont permis de préparer mon visa de travail qualifié tout en continuant mon emploi. La flexibilité des horaires est vraiment un atout majeur. Je recommande sans hésiter."
+      },
+      "de": {
+        "texte": "Die Online-Kurse von IDS ermöglichten mir, mein Fachkräftevisum vorzubereiten, während ich weiterarbeitete. Die flexible Terminplanung ist wirklich ein großer Vorteil. Ich empfehle es uneingeschränkt."
+      }
+    },
+    {
+      "id": "3",
+      "nom": "Aminata Bello",
+      "role": "Infirmière — Hôpital Central de Yaoundé",
+      "note": 5,
+      "photo": "/images/temoignages/temoignage-3.jpg",
+      "fr": {
+        "texte": "J'ai commencé de zéro et en 14 mois j'ai atteint le niveau B1 avec mention. Les formateurs connaissent parfaitement les exigences des universités et employeurs allemands. Merci IDS !"
+      },
+      "de": {
+        "texte": "Ich habe von Null angefangen und in 14 Monaten das Niveau B1 mit Auszeichnung erreicht. Die Trainer kennen die Anforderungen deutscher Universitäten und Arbeitgeber genau. Danke IDS!"
+      }
+    },
+    {
+      "id": "4",
+      "nom": "Paul Essomba",
+      "role": "Étudiant en architecture — Bâle, Suisse",
+      "note": 5,
+      "photo": "/images/temoignages/temoignage-4.jpg",
+      "fr": {
+        "texte": "La préparation au TestDaF proposée par IDS est vraiment rigoureuse. J'ai obtenu TDN 4 dans toutes les compétences. La méthodologie et les simulations d'examen sont top !"
+      },
+      "de": {
+        "texte": "Die TestDaF-Vorbereitung bei IDS ist wirklich gründlich. Ich habe TDN 4 in allen Kompetenzbereichen erhalten. Die Methodik und die Prüfungssimulationen sind erstklassig!"
+      }
+    }
+  ]
+}

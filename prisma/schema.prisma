@@ -1,0 +1,156 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+
+
+
+model User {
+  id          String        @id @default(cuid())
+  nom         String
+  prenom      String
+  email       String        @unique
+  telephone   String?
+  motDePasse  String?       // null si inscrit sans compte
+  role        Role          @default(ETUDIANT)
+  locale      String        @default("fr")
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  inscriptions Inscription[]
+
+  @@map("users")
+}
+
+model Inscription {
+  id              String   @id @default(cuid())
+  numeroAuto      String   @unique  // ex: IDS-2025-000123
+  dateInscription DateTime @default(now())
+
+  // Informations personnelles
+  nom             String
+  prenom          String
+  email           String
+  telephone       String
+  dateNaissance   String?  // format "DD/MM/YYYY"
+  sexe            Sexe?
+  nationalite     String?
+  adresse         String?
+  ville           String?
+  codePostal      String?
+
+  // Section 2 — Formation choisie
+  niveau          NiveauAllemand
+  typeCours       TypeCours
+  // modeCours est dérivé automatiquement : EN_LIGNE dans typeCours → mode en ligne
+  objectif        Objectif
+  objectifAutre   String?   // si objectif = AUTRE
+
+  // Section 3 — Disponibilités
+  creneaux        String[]  // ex: ["MATIN", "SOIR"]
+  jours           String[]  // ex: ["LUNDI", "MERCREDI"]
+
+  // Section 4 — Informations académiques
+  niveauEtudes    NiveauEtudes?
+  profession      String?
+
+  // Section 5 — Engagement
+  accepteReglement Boolean @default(false)
+
+  // Statut et suivi
+  statut          StatutInscription @default(EN_ATTENTE)
+  languePref      String            @default("fr")
+
+  // Relations
+  userId          String?
+  user            User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  emailLogs       EmailLog[]
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@map("inscriptions")
+}
+
+model EmailLog {
+  id              String        @id @default(cuid())
+  inscriptionId   String
+  inscription     Inscription   @relation(fields: [inscriptionId], references: [id], onDelete: Cascade)
+  destinataire    String
+  sujet           String
+  statut          StatutEmail   @default(EN_ATTENTE)
+  resendId        String?       // ID retourné par Resend
+  envoye_le       DateTime?
+  createdAt       DateTime      @default(now())
+
+  @@map("email_logs")
+}
+
+// ============================================================
+// ENUMS
+// ============================================================
+
+enum Role {
+  ETUDIANT
+  ADMIN
+}
+
+enum Sexe {
+  HOMME
+  FEMME
+}
+
+enum NiveauAllemand {
+  A1
+  A2
+  B1
+  B2
+  C1
+  C2
+}
+
+enum TypeCours {
+  GROUPE
+  INDIVIDUEL
+  INTENSIF
+  SEMI_INTENSIF
+  EN_LIGNE
+}
+
+enum Objectif {
+  ETUDES_ALLEMAGNE
+  TRAVAIL
+  PREPARATION_EXAMEN
+  VOYAGE
+  AUTRE
+}
+
+enum NiveauEtudes {
+  LYCEE
+  UNIVERSITE
+  PROFESSIONNEL
+  AUTRE
+}
+
+enum StatutInscription {
+  EN_ATTENTE
+  CONFIRMEE
+  ANNULEE
+}
+
+enum StatutEmail {
+  EN_ATTENTE
+  ENVOYE
+  ECHEC
+}

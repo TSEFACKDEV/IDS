@@ -1,0 +1,68 @@
+{
+  "equipe": [
+    {
+      "id": "1",
+      "photo": "/images/equipe/prof-1.jpg",
+      "fr": {
+        "nom": "Dr. Klaus Müller",
+        "role": "Directeur pédagogique",
+        "bio": "Docteur en linguistique allemande de l'Université de Hambourg. Plus de 15 ans d'expérience dans l'enseignement du FLE/DaF en Afrique subsaharienne. Expert certifié Goethe-Institut.",
+        "specialite": "Grammaire avancée, préparation TestDaF/DSH"
+      },
+      "de": {
+        "nom": "Dr. Klaus Müller",
+        "role": "Pädagogischer Direktor",
+        "bio": "Doktor der deutschen Linguistik von der Universität Hamburg. Über 15 Jahre Erfahrung im DaF-Unterricht in Subsahara-Afrika. Zertifizierter Goethe-Institut-Experte.",
+        "specialite": "Fortgeschrittene Grammatik, TestDaF/DSH-Vorbereitung"
+      }
+    },
+    {
+      "id": "2",
+      "photo": "/images/equipe/prof-2.jpg",
+      "fr": {
+        "nom": "Mme Ingrid Fischer",
+        "role": "Responsable des cours en ligne",
+        "bio": "Maîtrise en pédagogie interculturelle de l'Université de Cologne. Spécialisée dans l'enseignement à distance et les méthodes actives. Formatrice certifiée DAAD.",
+        "specialite": "Cours en ligne, culture allemande, conversation"
+      },
+      "de": {
+        "nom": "Frau Ingrid Fischer",
+        "role": "Leiterin der Online-Kurse",
+        "bio": "Master in interkultureller Pädagogik von der Universität Köln. Spezialisiert auf Fernunterricht und aktive Methoden. DAAD-zertifizierte Trainerin.",
+        "specialite": "Online-Kurse, deutsche Kultur, Konversation"
+      }
+    },
+    {
+      "id": "3",
+      "photo": "/images/equipe/prof-3.jpg",
+      "fr": {
+        "nom": "M. Christoph Bauer",
+        "role": "Professeur B1/B2 et conseiller visa",
+        "bio": "Germaniste diplômé de l'Université de Munich, 10 ans d'expérience au Cameroun. Conseiller spécialisé dans les procédures de visa étudiant et travailleur qualifié pour l'Allemagne.",
+        "specialite": "Niveaux B1/B2, conseils immigration, lettres de motivation"
+      },
+      "de": {
+        "nom": "Herr Christoph Bauer",
+        "role": "B1/B2-Lehrer und Visumberater",
+        "bio": "Germanist der Universität München, 10 Jahre Erfahrung in Kamerun. Spezialisierter Berater für Studenten- und Fachkräftevisa-Verfahren für Deutschland.",
+        "specialite": "B1/B2-Niveaus, Einwanderungsberatung, Motivationsschreiben"
+      }
+    },
+    {
+      "id": "4",
+      "photo": "/images/equipe/prof-4.jpg",
+      "fr": {
+        "nom": "Mme Hortense Kamga",
+        "role": "Coordinatrice pédagogique & A1/A2",
+        "bio": "Professeure bilingue Français-Allemand, diplômée de l'ENS Yaoundé et certifiée Goethe-Institut. Spécialisée dans la pédagogie des débutants et l'insertion professionnelle.",
+        "specialite": "Niveaux A1/A2, phonétique, intégration professionnelle"
+      },
+      "de": {
+        "nom": "Frau Hortense Kamga",
+        "role": "Pädagogische Koordinatorin & A1/A2",
+        "bio": "Zweisprachige Französisch-Deutsch-Lehrerin, Absolventin der ENS Yaoundé und Goethe-Institut-zertifiziert. Spezialisiert auf Pädagogik für Anfänger und berufliche Eingliederung.",
+        "specialite": "A1/A2-Niveaus, Phonetik, berufliche Integration"
+      }
+    }
+  ]
+}

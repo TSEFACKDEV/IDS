@@ -1,0 +1,224 @@
+{
+  "courses": [
+    {
+      "id": "a1",
+      "slug": "allemand-debutant-a1",
+      "image": "/images/cours/cours-a1.jpg",
+      "niveau": "A1",
+      "typesCours": ["GROUPE", "EN_LIGNE"],
+      "dureeHeures": 80,
+      "prixFCFA": 75000,
+      "prochainDemarrage": "2025-09-01",
+      "fr": {
+        "titre": "Allemand Débutant — A1",
+        "description": "Découvrez les bases de l'allemand : alphabet, salutations, présentation personnelle, chiffres et vocabulaire du quotidien. Ce cours est conçu pour les personnes sans aucune expérience préalable.",
+        "objectifs": [
+          "Maîtriser l'alphabet et la prononciation allemande",
+          "Se présenter et présenter autrui",
+          "Comprendre et utiliser des expressions du quotidien",
+          "Interagir de façon simple dans des situations courantes"
+        ],
+        "programme": [
+          "Salutations et présentations",
+          "Nombres, dates et heures",
+          "La famille et l'environnement proche",
+          "Les activités quotidiennes",
+          "Les achats et la nourriture"
+        ]
+      },
+      "de": {
+        "titre": "Deutsch für Anfänger — A1",
+        "description": "Entdecken Sie die Grundlagen des Deutschen: Alphabet, Begrüßungen, Selbstvorstellung, Zahlen und alltägliches Vokabular. Dieser Kurs richtet sich an Personen ohne Vorkenntnisse.",
+        "objectifs": [
+          "Das Alphabet und die deutsche Aussprache beherrschen",
+          "Sich und andere vorstellen",
+          "Alltägliche Ausdrücke verstehen und verwenden",
+          "Einfach in gewöhnlichen Situationen kommunizieren"
+        ],
+        "programme": [
+          "Begrüßungen und Vorstellungen",
+          "Zahlen, Daten und Uhrzeiten",
+          "Familie und unmittelbare Umgebung",
+          "Tägliche Aktivitäten",
+          "Einkaufen und Essen"
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "slug": "allemand-elementaire-a2",
+      "image": "/images/cours/cours-a2.jpg",
+      "niveau": "A2",
+      "typesCours": ["GROUPE", "INDIVIDUEL", "EN_LIGNE"],
+      "dureeHeures": 100,
+      "prixFCFA": 90000,
+      "prochainDemarrage": "2025-09-01",
+      "fr": {
+        "titre": "Allemand Élémentaire — A2",
+        "description": "Consolidez vos bases et enrichissez votre vocabulaire. Apprenez à vous exprimer sur des sujets familiers avec plus d'aisance et à comprendre des textes courts simples.",
+        "objectifs": [
+          "Communiquer lors de situations simples et habituelles",
+          "Décrire son environnement et ses habitudes",
+          "Lire et comprendre des textes courts",
+          "Rédiger des messages et notes simples"
+        ],
+        "programme": [
+          "Les voyages et les transports",
+          "La santé et le corps",
+          "Le travail et les professions",
+          "Les loisirs et les sports",
+          "La grammaire intermédiaire"
+        ]
+      },
+      "de": {
+        "titre": "Elementares Deutsch — A2",
+        "description": "Festigen Sie Ihre Grundlagen und erweitern Sie Ihren Wortschatz. Lernen Sie, sich über vertraute Themen flüssiger auszudrücken und kurze, einfache Texte zu verstehen.",
+        "objectifs": [
+          "In einfachen und gewohnten Situationen kommunizieren",
+          "Die eigene Umgebung und Gewohnheiten beschreiben",
+          "Kurze Texte lesen und verstehen",
+          "Einfache Nachrichten und Notizen schreiben"
+        ],
+        "programme": [
+          "Reisen und Verkehrsmittel",
+          "Gesundheit und Körper",
+          "Arbeit und Berufe",
+          "Freizeit und Sport",
+          "Mittlere Grammatik"
+        ]
+      }
+    },
+    {
+      "id": "b1",
+      "slug": "allemand-intermediaire-b1",
+      "image": "/images/cours/cours-b1.jpg",
+      "niveau": "B1",
+      "typesCours": ["GROUPE", "INDIVIDUEL", "INTENSIF", "EN_LIGNE"],
+      "dureeHeures": 120,
+      "prixFCFA": 110000,
+      "prochainDemarrage": "2025-09-15",
+      "fr": {
+        "titre": "Allemand Intermédiaire — B1",
+        "description": "Atteignez le niveau permettant de s'exprimer clairement sur des sujets variés. Préparez-vous au Zertifikat Deutsch (B1) reconnu internationalement.",
+        "objectifs": [
+          "Comprendre les points essentiels de sujets habituels",
+          "Se débrouiller dans la plupart des situations en Allemagne",
+          "Produire un discours simple et cohérent",
+          "Préparer le certificat Goethe B1 / ÖSD"
+        ],
+        "programme": [
+          "Expression orale approfondie",
+          "Compréhension de textes authentiques",
+          "Grammaire avancée (subjonctif, passif)",
+          "Civilisation et culture allemande",
+          "Préparation aux examens officiels"
+        ]
+      },
+      "de": {
+        "titre": "Mittelstufe Deutsch — B1",
+        "description": "Erreichen Sie das Niveau, das es Ihnen ermöglicht, sich klar zu verschiedenen Themen auszudrücken. Bereiten Sie sich auf das international anerkannte Zertifikat Deutsch (B1) vor.",
+        "objectifs": [
+          "Die Hauptpunkte vertrauter Themen verstehen",
+          "In den meisten Situationen in Deutschland zurechtkommen",
+          "Einfachen und zusammenhängenden Diskurs produzieren",
+          "Das Goethe-Zertifikat B1 / ÖSD vorbereiten"
+        ],
+        "programme": [
+          "Vertieftes mündliches Ausdrucksvermögen",
+          "Verstehen authentischer Texte",
+          "Fortgeschrittene Grammatik (Konjunktiv, Passiv)",
+          "Landeskunde und deutsche Kultur",
+          "Vorbereitung auf offizielle Prüfungen"
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "slug": "allemand-superieur-b2",
+      "image": "/images/cours/cours-b2.jpg",
+      "niveau": "B2",
+      "typesCours": ["GROUPE", "INDIVIDUEL", "INTENSIF"],
+      "dureeHeures": 140,
+      "prixFCFA": 130000,
+      "prochainDemarrage": "2025-10-01",
+      "fr": {
+        "titre": "Allemand Intermédiaire Supérieur — B2",
+        "description": "Niveau requis pour la plupart des universités allemandes et les visas de longue durée. Maîtrisez des sujets complexes et préparez le Goethe-Zertifikat B2.",
+        "objectifs": [
+          "Comprendre des textes complexes sur des sujets concrets et abstraits",
+          "Interagir avec un haut degré de spontanéité",
+          "Préparer le dossier de visa étudiant / travail",
+          "Atteindre un niveau universitaire en allemand"
+        ],
+        "programme": [
+          "Débats et argumentation avancée",
+          "Écriture académique et professionnelle",
+          "Préparation visa étudiant / travailleur qualifié",
+          "Grammaire complexe et style",
+          "Compréhension orale de locuteurs natifs"
+        ]
+      },
+      "de": {
+        "titre": "Fortgeschrittenes Deutsch — B2",
+        "description": "Niveau, das für die meisten deutschen Universitäten und Langzeitvisa erforderlich ist. Beherrschen Sie komplexe Themen und bereiten Sie das Goethe-Zertifikat B2 vor.",
+        "objectifs": [
+          "Komplexe Texte zu konkreten und abstrakten Themen verstehen",
+          "Mit einem hohen Maß an Spontaneität interagieren",
+          "Die Unterlagen für Studenten- / Arbeitsvisum vorbereiten",
+          "Ein universitäres Niveau im Deutschen erreichen"
+        ],
+        "programme": [
+          "Debatten und fortgeschrittene Argumentation",
+          "Akademisches und professionelles Schreiben",
+          "Vorbereitung Studentenvisum / qualifizierter Arbeitnehmer",
+          "Komplexe Grammatik und Stil",
+          "Hörverstehen von Muttersprachlern"
+        ]
+      }
+    },
+    {
+      "id": "c1c2",
+      "slug": "allemand-avance-c1-c2",
+      "image": "/images/cours/cours-c1.jpg",
+      "niveau": "C1",
+      "typesCours": ["INDIVIDUEL", "INTENSIF"],
+      "dureeHeures": 160,
+      "prixFCFA": 160000,
+      "prochainDemarrage": "2025-10-15",
+      "fr": {
+        "titre": "Allemand Avancé — C1/C2",
+        "description": "Pour ceux qui visent la maîtrise complète de la langue. Préparez le TestDaF, le DSH ou le Goethe-Zertifikat C1/C2 pour accéder aux meilleures universités allemandes.",
+        "objectifs": [
+          "S'exprimer de façon spontanée, fluide et précise",
+          "Maîtriser la langue dans des contextes sociaux et académiques",
+          "Réussir les examens TestDaF / DSH / Goethe C1-C2",
+          "Rédiger des textes longs et bien structurés"
+        ],
+        "programme": [
+          "Expression orale native et nuancée",
+          "Rédaction académique avancée",
+          "Préparation TestDaF / DSH",
+          "Linguistique allemande",
+          "Littérature et culture contemporaine"
+        ]
+      },
+      "de": {
+        "titre": "Fortgeschrittenes Deutsch — C1/C2",
+        "description": "Für diejenigen, die eine vollständige Beherrschung der Sprache anstreben. Bereiten Sie TestDaF, DSH oder das Goethe-Zertifikat C1/C2 vor.",
+        "objectifs": [
+          "Spontan, flüssig und präzise sprechen",
+          "Die Sprache in sozialen und akademischen Kontexten beherrschen",
+          "TestDaF / DSH / Goethe C1-C2 erfolgreich ablegen",
+          "Lange und gut strukturierte Texte verfassen"
+        ],
+        "programme": [
+          "Muttersprachliches und nuanciertes Ausdrucksvermögen",
+          "Fortgeschrittenes akademisches Schreiben",
+          "TestDaF / DSH Vorbereitung",
+          "Deutsche Linguistik",
+          "Zeitgenössische Literatur und Kultur"
+        ]
+      }
+    }
+  ]
+}
