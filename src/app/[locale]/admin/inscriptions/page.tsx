@@ -5,6 +5,7 @@ import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import { FileText, Search, Filter } from 'lucide-react';
 import type { Inscription } from '@/generated/prisma';
+import { Prisma } from '@/generated/prisma';
 
 type StatutInscription = 'EN_ATTENTE' | 'CONFIRMEE' | 'ANNULEE';
 
@@ -40,7 +41,7 @@ export default async function AdminInscriptionsPage({
   const { statut: statutFilter, niveau: niveauFilter, page: pageStr, q } = await searchParams;
   const page = Math.max(1, parseInt(pageStr ?? '1', 10));
 
-  const where: Parameters<typeof prisma.inscription.findMany>[0]['where'] = {};
+  const where: Prisma.InscriptionWhereInput = {};
   if (statutFilter && statutFilter !== 'all') where.statut = statutFilter as StatutInscription;
   if (niveauFilter && niveauFilter !== 'all') where.niveau = niveauFilter as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   if (q) {

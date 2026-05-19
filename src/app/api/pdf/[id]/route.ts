@@ -14,6 +14,7 @@ import {
 } from '@react-pdf/renderer';
 
 export const runtime = 'nodejs';
+export const maxDuration = 30;
 
 // ─── Styles PDF ────────────────────────────────────────────────────────────────
 const styles = StyleSheet.create({

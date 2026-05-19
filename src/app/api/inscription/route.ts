@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { sendConfirmationEmail } from '@/lib/email';
 import { signPdfToken } from '@/lib/tokens';
 
+export const maxDuration = 30;
+
 const inscriptionSchema = z.object({
   nom: z.string().min(2),
   prenom: z.string().min(2),
