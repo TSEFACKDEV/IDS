@@ -17,14 +17,14 @@ export default async function AdminLayout({
   const { locale } = await params;
 
   const NAV = [
-    { href: `/${locale}/admin`, label: 'Tableau de bord', icon: LayoutDashboard },
-    { href: `/${locale}/admin/inscriptions`, label: 'Inscriptions', icon: ClipboardList },
+    { href: '/admin', label: 'Tableau de bord', icon: LayoutDashboard },
+    { href: '/admin/inscriptions', label: 'Inscriptions', icon: ClipboardList },
   ];
 
   return (
     <div className="min-h-screen flex bg-ids-gray-50">
-      {/* ── Sidebar ── */}
-      <aside className="w-64 shrink-0 flex flex-col bg-ids-dark border-r border-white/10 sticky top-0 h-screen overflow-y-auto">
+      {/* ── Sidebar fixed ── */}
+      <aside className="fixed left-0 top-0 w-64 h-screen flex flex-col bg-ids-dark border-r border-white/10 overflow-y-auto z-30">
         {/* Logo */}
         <div className="flex items-center gap-3 px-6 py-5 border-b border-white/10">
           <div className="w-9 h-9 bg-ids-red-500 rounded-lg flex items-center justify-center shrink-0">
@@ -77,7 +77,7 @@ export default async function AdminLayout({
       </aside>
 
       {/* ── Main content ── */}
-      <main className="flex-1 min-w-0">{children}</main>
+      <main className="flex-1 min-w-0 ml-64">{children}</main>
     </div>
   );
 }

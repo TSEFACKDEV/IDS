@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { signIn } from 'next-auth/react';
+import { signIn, getSession } from 'next-auth/react';
 import { useSearchParams } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { Eye, EyeOff, Loader2, Lock, Mail } from 'lucide-react';
@@ -11,7 +11,8 @@ export default function ConnexionPage() {
   const t = useTranslations('Auth');
   const locale = useLocale();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get('callbackUrl') ?? `/${locale}`;
+  const explicitCallback = searchParams.get('callbackUrl');
+  const callbackUrl = explicitCallback ?? `/${locale}`;
 
   const [form, setForm] = useState({ email: '', password: '' });
   const [showPw, setShowPw] = useState(false);
@@ -41,8 +42,18 @@ export default function ConnexionPage() {
       return;
     }
 
-    if (result?.url) {
+    // callbackUrl explicite (ex: depuis le middleware) → l'honorer directement
+    if (explicitCallback && result?.url) {
       window.location.href = result.url;
+      return;
+    }
+
+    // Pas de callbackUrl → rediriger selon le rôle
+    const session = await getSession();
+    if (session?.user?.role === 'ADMIN') {
+      window.location.href = `/${locale}/admin`;
+    } else {
+      window.location.href = `/${locale}`;
     }
   }
 
