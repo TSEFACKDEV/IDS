@@ -84,13 +84,7 @@ export default function Hero() {
         {/* Main content */}
         <div className="container-ids relative z-10 py-28">
           <div className="max-w-165">
-            {/* Badge */}
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65 }} className="mb-8">
-              <span className="inline-flex items-center gap-2 bg-white/7 border border-white/13 backdrop-blur-sm text-white/75 px-4 py-2 rounded-full text-sm font-medium">
-                <Star className="w-3.5 h-3.5 text-ids-gold-400 fill-ids-gold-400" />
-                {t('badge')}
-              </span>
-            </motion.div>
+            
 
             <motion.h1
               initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, delay: 0.1 }}
