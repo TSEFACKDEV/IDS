@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
 import { sendConfirmationEmail } from '@/lib/email';
 import { signPdfToken } from '@/lib/tokens';
+import { NIVEAU_PRIX } from '@/lib/utils';
 
 export const maxDuration = 30;
 
@@ -17,7 +18,7 @@ const inscriptionSchema = z.object({
   adresse: z.string().optional(),
   ville: z.string().optional(),
   codePostal: z.string().optional(),
-  niveau: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
+  niveau: z.enum(['A1', 'A2', 'B1', 'B2', 'C1']),
   typeCours: z.enum(['GROUPE', 'INDIVIDUEL', 'INTENSIF', 'SEMI_INTENSIF', 'EN_LIGNE']),
   objectif: z.enum(['ETUDES_ALLEMAGNE', 'TRAVAIL', 'PREPARATION_EXAMEN', 'VOYAGE', 'AUTRE']),
   objectifAutre: z.string().optional(),
@@ -107,20 +108,18 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       numeroAuto: inscription.numeroAuto,
       niveau: inscription.niveau,
       typeCours: inscription.typeCours,
+      prixFCFA: NIVEAU_PRIX[inscription.niveau] ?? 0,
       locale: data.locale,
-    }).then((resendId) => {
-      if (resendId) {
-        prisma.emailLog.create({
-          data: {
-            inscriptionId: inscription.id,
-            destinataire: inscription.email,
-            sujet: 'Confirmation inscription',
-            statut: 'ENVOYE',
-            resendId,
-            envoye_le: new Date(),
-          },
-        }).catch(console.error);
-      }
+    }).then(() => {
+      prisma.emailLog.create({
+        data: {
+          inscriptionId: inscription.id,
+          destinataire: inscription.email,
+          sujet: 'Confirmation inscription',
+          statut: 'ENVOYE',
+          envoye_le: new Date(),
+        },
+      }).catch(console.error);
     }).catch(console.error);
 
     const pdfToken = await signPdfToken(inscription.id);

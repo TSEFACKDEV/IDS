@@ -23,7 +23,7 @@ interface Temoignage {
 
 function Avatar({ nom, photo }: { nom: string; photo: string }) {
   return (
-    <div className="relative w-14 h-14 rounded-2xl overflow-hidden shrink-0 shadow-md ring-2 ring-white">
+    <div className="relative w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 shadow-md ring-2 ring-white">
       <Image
         src={photo}
         alt={nom}

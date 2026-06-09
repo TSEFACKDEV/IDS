@@ -7,7 +7,7 @@ import { Link } from '@/i18n/navigation';
 import { ChevronDown, MessageCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const FAQ_KEYS = ['1', '2', '3', '4', '5', '6'] as const;
+const FAQ_KEYS = ['1', '2', '3', '4', '5'] as const;
 
 export default function FaqSection() {
   const t = useTranslations('FAQ');

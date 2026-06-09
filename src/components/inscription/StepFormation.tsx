@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import type { InscriptionFormData } from './InscriptionForm';
 import { cn } from '@/lib/utils';
 
-const NIVEAUX = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
+const NIVEAUX = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
 const TYPES_COURS = ['GROUPE', 'INDIVIDUEL', 'INTENSIF', 'SEMI_INTENSIF', 'EN_LIGNE'] as const;
 const OBJECTIFS = ['ETUDES_ALLEMAGNE', 'TRAVAIL', 'PREPARATION_EXAMEN', 'VOYAGE', 'AUTRE'] as const;
 const NIVEAUX_ETUDES = ['LYCEE', 'UNIVERSITE', 'PROFESSIONNEL', 'AUTRE'] as const;
@@ -16,7 +16,6 @@ const NIVEAU_COLORS: Record<string, string> = {
   B1: 'border-blue-400 bg-blue-50 text-blue-800',
   B2: 'border-indigo-400 bg-indigo-50 text-indigo-800',
   C1: 'border-ids-red-500 bg-ids-red-50 text-ids-red-700',
-  C2: 'border-ids-red-700 bg-ids-red-100 text-ids-red-700',
 };
 
 export default function StepFormation() {

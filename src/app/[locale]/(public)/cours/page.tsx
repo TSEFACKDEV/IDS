@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import coursData from '@/content/cours.json';
@@ -11,7 +11,9 @@ interface Cours {
   image: string;
   niveau: string;
   typesCours: string[];
-  dureeHeures: number;
+  dureeSemaines?: string;
+  formats?: string[];
+  avantages?: string[];
   prixFCFA: number;
   prochainDemarrage: string;
   fr: { titre: string; description: string; objectifs: string[]; programme: string[] };
@@ -24,6 +26,7 @@ export default async function CoursPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'Courses' });
   const tCommon = await getTranslations({ locale, namespace: 'Common' });
   const cours = coursData.courses as Cours[];
@@ -59,7 +62,7 @@ export default async function CoursPage({
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   />
                   <div className="absolute top-3 left-3">
-                    <Badge label={c.niveau} variant={c.niveau as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'} />
+                    <Badge label={c.niveau} variant={c.niveau as 'A1' | 'A2' | 'B1' | 'B2' | 'C1'} />
                   </div>
                 </div>
 
@@ -72,7 +75,7 @@ export default async function CoursPage({
                   <div className="flex items-center gap-4 mb-4 text-xs text-ids-gray-400">
                     <span className="flex items-center gap-1">
                       <Clock className="w-3.5 h-3.5" />
-                      {c.dureeHeures}h
+                      {c.dureeSemaines ?? '4 à 5 semaines'}
                     </span>
                     <span className="flex items-center gap-1">
                       <Users className="w-3.5 h-3.5" />

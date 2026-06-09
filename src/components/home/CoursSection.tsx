@@ -8,7 +8,7 @@ import { ArrowRight, Clock, Banknote, Users } from 'lucide-react';
 import Badge from '@/components/ui/Badge';
 import coursData from '@/content/cours.json';
 
-type NiveauAllemand = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+type NiveauAllemand = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 
 interface CourseContent {
   titre: string;
@@ -21,7 +21,8 @@ interface Course {
   image: string;
   niveau: string;
   typesCours: string[];
-  dureeHeures: number;
+  dureeSemaines?: string;
+  formats?: string[];
   prixFCFA: number;
   fr: CourseContent;
   de: CourseContent;
@@ -88,11 +89,11 @@ export default function CoursSection() {
                   <div className="grid grid-cols-3 gap-2 mb-5 p-3 bg-ids-gray-50 rounded-xl text-center">
                     <div className="flex flex-col gap-0.5">
                       <Clock className="w-3.5 h-3.5 text-ids-gray-400 mx-auto" />
-                      <span className="text-xs font-semibold text-ids-black">{course.dureeHeures}h</span>
+                      <span className="text-xs font-semibold text-ids-black">{course.dureeSemaines ?? '4 à 5 semaines'}</span>
                     </div>
                     <div className="flex flex-col gap-0.5 border-x border-ids-gray-200">
                       <Users className="w-3.5 h-3.5 text-ids-gray-400 mx-auto" />
-                      <span className="text-xs font-semibold text-ids-black">{course.typesCours.length > 1 ? 'Groupe / En ligne' : course.typesCours[0]}</span>
+                      <span className="text-xs font-semibold text-ids-black">{course.formats ? course.formats.join(' / ') : (course.typesCours.length > 1 ? 'Groupe / En ligne' : course.typesCours[0])}</span>
                     </div>
                     <div className="flex flex-col gap-0.5">
                       <Banknote className="w-3.5 h-3.5 text-ids-gray-400 mx-auto" />

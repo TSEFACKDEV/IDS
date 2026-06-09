@@ -5,8 +5,8 @@ import { useTranslations } from 'next-intl';
 import type { InscriptionFormData } from './InscriptionForm';
 import { cn } from '@/lib/utils';
 
-const CRENEAUX = ['MATIN', 'MIDI', 'SOIR', 'WEEKEND'] as const;
-const JOURS = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'SAMEDI'] as const;
+const CRENEAUX = ['MATIN', 'MIDI', 'SOIR'] as const;
+const JOURS = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'WEEKEND'] as const;
 
 interface CheckboxGroupProps {
   name: 'creneaux' | 'jours';

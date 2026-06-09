@@ -11,7 +11,7 @@ import StatutActions from './StatutActions';
 
 const NIVEAU_COLORS: Record<string, string> = {
   A1: '#10b981', A2: '#14b8a6', B1: '#3b82f6',
-  B2: '#6366f1', C1: '#f59e0b', C2: '#CC0000',
+  B2: '#6366f1', C1: '#f59e0b',
 };
 
 const TYPE_LABELS: Record<string, string> = {

@@ -2,22 +2,20 @@
 
 import { useRef } from 'react';
 import { motion, useInView, useSpring, useTransform } from 'framer-motion';
-import { useTranslations } from 'next-intl';
-import { Users, TrendingUp, Calendar, Award } from 'lucide-react';
+import { BookOpen, Globe, GraduationCap, Clock } from 'lucide-react';
 
 interface StatItem {
-  value: string;
-  labelKey: string;
+  label: string;
   icon: React.ElementType;
   numericValue: number;
   suffix: string;
 }
 
 const STATS: StatItem[] = [
-  { value: '2000', suffix: '+', numericValue: 2000, labelKey: 'students', icon: Users },
-  { value: '95', suffix: '%', numericValue: 95, labelKey: 'successRate', icon: TrendingUp },
-  { value: '15', suffix: '+', numericValue: 15, labelKey: 'experience', icon: Calendar },
-  { value: '1500', suffix: '+', numericValue: 1500, labelKey: 'certifications', icon: Award },
+  { numericValue: 5, suffix: '', label: 'Niveaux disponibles (A1–C1)', icon: BookOpen },
+  { numericValue: 5, suffix: '', label: 'Examens officiels préparés', icon: GraduationCap },
+  { numericValue: 6, suffix: '', label: 'Services proposés', icon: Globe },
+  { numericValue: 6, suffix: 'j/7', label: "Jours d'ouverture", icon: Clock },
 ];
 
 function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
@@ -27,20 +25,17 @@ function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
   const display = useTransform(spring, (v) =>
     `${Math.round(v).toLocaleString('fr-FR')}${suffix}`
   );
-
   return <motion.span ref={ref}>{display}</motion.span>;
 }
 
 export default function Stats() {
-  const t = useTranslations('Stats');
-
   return (
     <section className="py-20" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #12080a 100%)' }}>
       <div className="container-ids">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-          {STATS.map(({ numericValue, suffix, labelKey, icon: Icon }, i) => (
+          {STATS.map(({ numericValue, suffix, label, icon: Icon }, i) => (
             <motion.div
-              key={labelKey}
+              key={label}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
@@ -53,7 +48,7 @@ export default function Stats() {
               <div className="text-4xl font-black text-white mb-2 tabular-nums">
                 <AnimatedCounter value={numericValue} suffix={suffix} />
               </div>
-              <p className="text-white/40 text-sm">{t(labelKey as Parameters<typeof t>[0])}</p>
+              <p className="text-white/40 text-sm">{label}</p>
             </motion.div>
           ))}
         </div>

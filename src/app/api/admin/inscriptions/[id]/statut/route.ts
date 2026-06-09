@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { auth } from '@/auth';
 import { prisma } from '@/lib/prisma';
+import { sendConfirmationEmail } from '@/lib/email';
+import { NIVEAU_PRIX } from '@/lib/utils';
 
 const schema = z.object({
   statut: z.enum(['EN_ATTENTE', 'CONFIRMEE', 'ANNULEE']),
@@ -38,8 +40,22 @@ export async function PATCH(
   const updated = await prisma.inscription.update({
     where: { id },
     data: { statut: parsed.data.statut },
-    select: { id: true, statut: true, numeroAuto: true },
+    select: { id: true, statut: true, numeroAuto: true, email: true, prenom: true, nom: true, niveau: true, typeCours: true, languePref: true },
   });
+
+  // Envoyer un email de confirmation quand l'inscription est validée
+  if (parsed.data.statut === 'CONFIRMEE' && existing.statut !== 'CONFIRMEE') {
+    sendConfirmationEmail({
+      destinataire: updated.email,
+      prenom: updated.prenom,
+      nom: updated.nom,
+      numeroAuto: updated.numeroAuto,
+      niveau: updated.niveau,
+      typeCours: updated.typeCours,
+      prixFCFA: NIVEAU_PRIX[updated.niveau] ?? 0,
+      locale: updated.languePref ?? 'fr',
+    }).catch(console.error);
+  }
 
   return NextResponse.json(updated);
 }

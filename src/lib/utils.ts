@@ -15,3 +15,12 @@ export function formatDate(date: Date | string): string {
   const d = typeof date === 'string' ? new Date(date) : date;
   return d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
+
+/** Prix par niveau (FCFA) */
+export const NIVEAU_PRIX: Record<string, number> = {
+  A1: 75000,
+  A2: 90000,
+  B1: 110000,
+  B2: 130000,
+  C1: 160000,
+};

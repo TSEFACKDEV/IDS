@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export default function Footer() {
@@ -13,9 +14,13 @@ export default function Footer() {
         {/* Colonne 1 : Logo + tagline */}
         <div className="lg:col-span-1">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 bg-ids-red-500 rounded-lg flex items-center justify-center shrink-0">
-              <span className="text-white font-black text-sm">IDS</span>
-            </div>
+            <Image
+              src="/images/logos/logo.png"
+              alt="IDS Cameroun"
+              width={40}
+              height={40}
+              className="rounded-lg object-contain shrink-0"
+            />
             <span className="font-bold text-white text-base">IDS Cameroun</span>
           </div>
           <p className="text-ids-gray-400 text-sm leading-relaxed">{t('tagline')}</p>

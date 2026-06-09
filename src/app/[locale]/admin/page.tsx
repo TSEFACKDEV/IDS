@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import { FileText, Users, Clock, CheckCircle, XCircle, Calendar, TrendingUp, ArrowRight } from 'lucide-react';
-import type { Inscription } from '@prisma/client';
+import type { Inscription } from '@/generated/prisma';
 
 type StatutInscription = 'EN_ATTENTE' | 'CONFIRMEE' | 'ANNULEE';
 
@@ -16,7 +16,7 @@ const STATUT_STYLES: Record<StatutInscription, { bg: string; text: string; label
 
 const NIVEAU_COLORS: Record<string, string> = {
   A1: '#10b981', A2: '#14b8a6', B1: '#3b82f6',
-  B2: '#6366f1', C1: '#f59e0b', C2: '#CC0000',
+  B2: '#6366f1', C1: '#f59e0b',
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -51,7 +51,7 @@ export default async function AdminDashboardPage({
     ? Math.round(((cemois - moisPrecedent) / moisPrecedent) * 100)
     : cemois > 0 ? 100 : 0;
 
-  const niveaux = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
+  const niveaux = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
   const statsByNiveau = await Promise.all(
     niveaux.map((n) => prisma.inscription.count({ where: { niveau: n } }))
   );

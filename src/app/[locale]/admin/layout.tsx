@@ -2,7 +2,7 @@ import { auth } from '@/auth';
 import { notFound } from 'next/navigation';
 import { signOut } from '@/auth';
 import { Link } from '@/i18n/navigation';
-import { LayoutDashboard, ClipboardList, LogOut, Shield } from 'lucide-react';
+import { LayoutDashboard, ClipboardList, LogOut, Shield, BookOpen } from 'lucide-react';
 
 export default async function AdminLayout({
   children,
@@ -19,6 +19,7 @@ export default async function AdminLayout({
   const NAV = [
     { href: '/admin', label: 'Tableau de bord', icon: LayoutDashboard },
     { href: '/admin/inscriptions', label: 'Inscriptions', icon: ClipboardList },
+    { href: '/admin/cours-ressources', label: 'Cours & Ressources', icon: BookOpen },
   ];
 
   return (

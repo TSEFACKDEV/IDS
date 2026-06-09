@@ -41,7 +41,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="shrink-0 w-56 md:w-auto snap-start bg-white border border-ids-gray-200 rounded-2xl p-6 text-center hover:shadow-[0_8px_30px_rgba(0,0,0,0.1)] hover:-translate-y-1.5 transition-all duration-300 group"
+              className="flex-shrink-0 w-56 md:w-auto snap-start bg-white border border-ids-gray-200 rounded-2xl p-6 text-center hover:shadow-[0_8px_30px_rgba(0,0,0,0.1)] hover:-translate-y-1.5 transition-all duration-300 group"
             >
               <div className={`w-14 h-14 ${bg} rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
                 <Icon className={`w-7 h-7 ${color}`} />

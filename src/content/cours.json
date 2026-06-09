@@ -6,7 +6,9 @@
       "image": "/images/cours/cours-a1.jpg",
       "niveau": "A1",
       "typesCours": ["GROUPE", "EN_LIGNE"],
-      "dureeHeures": 80,
+      "dureeSemaines": "4 à 5 semaines",
+      "formats": ["En présentiel", "En ligne"],
+      "avantages": ["Petits groupes (5-10 pers.)", "Supports pédagogiques inclus", "Certificat de formation délivré", "Horaires flexibles"],
       "prixFCFA": 75000,
       "prochainDemarrage": "2025-09-01",
       "fr": {
@@ -50,7 +52,9 @@
       "image": "/images/cours/cours-a2.jpg",
       "niveau": "A2",
       "typesCours": ["GROUPE", "INDIVIDUEL", "EN_LIGNE"],
-      "dureeHeures": 100,
+      "dureeSemaines": "4 à 5 semaines",
+      "formats": ["En présentiel", "En ligne"],
+      "avantages": ["Petits groupes (5-10 pers.)", "Supports pédagogiques inclus", "Certificat de formation délivré", "Horaires flexibles"],
       "prixFCFA": 90000,
       "prochainDemarrage": "2025-09-01",
       "fr": {
@@ -94,7 +98,9 @@
       "image": "/images/cours/cours-b1.jpg",
       "niveau": "B1",
       "typesCours": ["GROUPE", "INDIVIDUEL", "INTENSIF", "EN_LIGNE"],
-      "dureeHeures": 120,
+      "dureeSemaines": "4 à 5 semaines",
+      "formats": ["En présentiel", "En ligne"],
+      "avantages": ["Petits groupes (5-10 pers.)", "Supports pédagogiques inclus", "Préparation aux examens officiels offerte", "Certificat de formation délivré"],
       "prixFCFA": 110000,
       "prochainDemarrage": "2025-09-15",
       "fr": {
@@ -138,7 +144,9 @@
       "image": "/images/cours/cours-b2.jpg",
       "niveau": "B2",
       "typesCours": ["GROUPE", "INDIVIDUEL", "INTENSIF"],
-      "dureeHeures": 140,
+      "dureeSemaines": "4 à 5 semaines",
+      "formats": ["En présentiel", "En ligne"],
+      "avantages": ["Petits groupes (5-10 pers.)", "Supports pédagogiques inclus", "Préparation aux examens officiels offerte", "Certificat de formation délivré"],
       "prixFCFA": 130000,
       "prochainDemarrage": "2025-10-01",
       "fr": {
@@ -177,21 +185,23 @@
       }
     },
     {
-      "id": "c1c2",
-      "slug": "allemand-avance-c1-c2",
+      "id": "c1",
+      "slug": "allemand-avance-c1",
       "image": "/images/cours/cours-c1.jpg",
       "niveau": "C1",
       "typesCours": ["INDIVIDUEL", "INTENSIF"],
-      "dureeHeures": 160,
+      "dureeSemaines": "4 à 5 semaines",
+      "formats": ["En présentiel", "En ligne"],
+      "avantages": ["Cours individualisés", "Supports pédagogiques inclus", "Préparation TestDaF / DSH offerte", "Certificat de formation délivré"],
       "prixFCFA": 160000,
       "prochainDemarrage": "2025-10-15",
       "fr": {
-        "titre": "Allemand Avancé — C1/C2",
-        "description": "Pour ceux qui visent la maîtrise complète de la langue. Préparez le TestDaF, le DSH ou le Goethe-Zertifikat C1/C2 pour accéder aux meilleures universités allemandes.",
+        "titre": "Allemand Avancé — C1",
+        "description": "Pour ceux qui visent la maîtrise complète de la langue. Préparez le TestDaF, le DSH ou le Goethe-Zertifikat C1 pour accéder aux meilleures universités allemandes.",
         "objectifs": [
           "S'exprimer de façon spontanée, fluide et précise",
           "Maîtriser la langue dans des contextes sociaux et académiques",
-          "Réussir les examens TestDaF / DSH / Goethe C1-C2",
+          "Réussir les examens TestDaF / DSH / Goethe C1",
           "Rédiger des textes longs et bien structurés"
         ],
         "programme": [
@@ -203,12 +213,12 @@
         ]
       },
       "de": {
-        "titre": "Fortgeschrittenes Deutsch — C1/C2",
-        "description": "Für diejenigen, die eine vollständige Beherrschung der Sprache anstreben. Bereiten Sie TestDaF, DSH oder das Goethe-Zertifikat C1/C2 vor.",
+        "titre": "Fortgeschrittenes Deutsch — C1",
+        "description": "Für diejenigen, die eine vollständige Beherrschung der Sprache anstreben. Bereiten Sie TestDaF, DSH oder das Goethe-Zertifikat C1 vor.",
         "objectifs": [
           "Spontan, flüssig und präzise sprechen",
           "Die Sprache in sozialen und akademischen Kontexten beherrschen",
-          "TestDaF / DSH / Goethe C1-C2 erfolgreich ablegen",
+          "TestDaF / DSH / Goethe C1 erfolgreich ablegen",
           "Lange und gut strukturierte Texte verfassen"
         ],
         "programme": [

@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import { FileText, Search, Filter } from 'lucide-react';
-import { type Inscription, Prisma } from '@prisma/client';
+import { type Inscription, Prisma } from '@/generated/prisma';
 
 type StatutInscription = 'EN_ATTENTE' | 'CONFIRMEE' | 'ANNULEE';
 
@@ -16,7 +16,7 @@ const STATUT_STYLES: Record<StatutInscription, { bg: string; text: string; label
 
 const NIVEAU_COLORS: Record<string, string> = {
   A1: '#10b981', A2: '#14b8a6', B1: '#3b82f6',
-  B2: '#6366f1', C1: '#f59e0b', C2: '#CC0000',
+  B2: '#6366f1', C1: '#f59e0b',
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -42,7 +42,7 @@ export default async function AdminInscriptionsPage({
 
   const where: Prisma.InscriptionWhereInput = {};
   if (statutFilter && statutFilter !== 'all') where.statut = statutFilter as StatutInscription;
-  if (niveauFilter && niveauFilter !== 'all') where.niveau = niveauFilter as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  if (niveauFilter && niveauFilter !== 'all') where.niveau = niveauFilter as 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
   if (q) {
     where.OR = [
       { nom: { contains: q, mode: 'insensitive' } },
@@ -114,7 +114,7 @@ export default async function AdminInscriptionsPage({
 
         {/* Niveau */}
         <div className="flex gap-1.5">
-          {['all', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map((n) => (
+          {['all', 'A1', 'A2', 'B1', 'B2', 'C1'].map((n) => (
             <Link
               key={n}
               href={buildUrl({ niveau: n, page: '1' })}

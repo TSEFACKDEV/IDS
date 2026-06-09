@@ -1,0 +1,3222 @@
+analyse moi ce projet de font en comble et effectueons les correction suivante : 1- Après inscription ce message doit être envoyé par e-mail et ou whatsapp:
+ Bonjour Jean Dupont,
+
+Votre inscription à l’Institut für die Deutsche Sprache (IDS) a bien été confirmée.
+
+Veuillez trouver ci-joint votre fiche d’inscription ainsi que les informations relatives au paiement.
+
+Nous vous remercions pour votre confiance et nous nous réjouissons de vous accueillir prochainement.
+
+Cordialement,
+
+Institut für die Deutsche Sprache (IDS).               2-Dans menu on va ajouter service: [3:09 PM, 23/05/2026] 🇩🇪Teguia Merlin Kenmogne: Et voici les services :
+ 1. Formations en langue allemande 🇩🇪
+Cours d’allemand
+Niveau A1
+Niveau A2
+Niveau B1
+Niveau B2
+Niveau C1
+Formats disponibles
+Cours intensifs
+Cours semi-intensifs
+Cours particuliers
+Cours en groupe
+Cours en ligne
+2. Préparation aux examens internationaux 📝
+Examens préparés
+Goethe-Institut
+ÖSD
+telc
+ECL
+Services inclus
+Examens blancs
+Simulations orales
+Techniques de réussite
+Correction personnalisée
+3. Accompagnement études en Allemagne 🎓
+Assistance universitaire
+Recherche d’universités
+Pré-inscriptions universitaires
+Constitution des dossiers
+Assistance administrative
+Orientation académique
+Choix des filières
+Conseils études en Allemagne
+Préparation départ étudiant
+4. Programme Ausbildung & carrière 💼
+Accompagnement Ausbildung
+Recherche de contrats Ausbildung
+Aide aux candidatures
+Préparation entretiens
+CV et lettre de motivation allemands
+Insertion professionnelle
+Orientation professionnelle
+Accompagnement carrière Allemagne
+5. Assistance visa & mobilité ✈️
+Assistance visa
+Constitution dossier visa
+Vérification documents
+Préparation entretien ambassade
+Suivi administratif
+Préparation au départ
+Conseils voyage
+Informations logement
+Assurance & formalités
+6. Accueil & intégration en Allemagne 🤝
+Services d’intégration
+Accueil à l’arrivée
+Assistance installation
+Orientation locale
+Accompagnement administratif
+Suivi étudiant
+Aide à l’intégration culturelle
+Assistance adaptation linguistique
+Support étudiant continu
+Structure parfaite pour le site web IDS
+Menu “Nos services”
+Tu peux afficher :
+🇩🇪 Formations allemandes
+📝 Préparation examens
+🎓 Études en Allemagne
+💼 Ausbildung & carrière
+✈️ Assistance visa
+🤝 Intégration en Allemagne
+ Pour la rubrique préparation aux examens on va afficher les prix pour chaque examen un peu comme tu as fait pour les niveau A1 et autres, 3-Dans À propos : 
+
+
+Notre équipe : 
+
+IDS réunit une équipe multidisciplinaire composée d’enseignants qualifiés et motivés, de conseillers académiques et de spécialistes de l’accompagnement vers l’Allemagne.Juste ceci sans photo et autres.. 4-Notre histoire : 
+
+
+L’Institut für die Deutsche Sprache (IDS) est né d’une ambition simple : offrir au Cameroon une formation en langue allemande moderne, sérieuse et orientée vers les opportunités internationales.
+Face à la demande croissante d’études, de formations professionnelles et de carrières en Allemagne, IDS a été créé pour accompagner les étudiants et professionnels dans leur parcours linguistique et académique.
+Depuis sa création, IDS s’engage à proposer un enseignement de qualité, des méthodes pédagogiques innovantes et un accompagnement personnalisé allant de l’apprentissage de la langue allemande jusqu’à l’intégration en Allemagne.
+Plus qu’un simple centre de langue, IDS souhaite devenir un véritable pont entre le Cameroun et l’Allemagne en facilitant l’accès à l’éducation, à la mobilité internationale et aux opportunités professionnelles.
+Aujourd’hui, IDS continue de grandir avec une vision claire : former une nouvelle génération de germanophones compétents, ambitieux et ouverts sur le monde., 5-Voici la localisation du centre : Biyemassi carrefour Scalom immeuble africa finance à Yaoundé, 6-il faut supprimer C2, 7-presentation des cours : Normal
+  0
+  
+  
+  21
+  
+  
+  false
+  false
+  false
+  
+  FR
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+ /* Style Definitions */
+ table.MsoNormalTable
+    {mso-style-name:"Tableau Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-para-margin:0cm;
+    line-height:115%;
+    mso-pagination:widow-orphan;
+    font-size:11.0pt;
+    font-family:"Arial",sans-serif;
+    mso-ansi-language:#000C;}
+
+**pour A1 et A2**
+
+Après inscription, vous recevez des
+livres de cours et d’exercices, des supports audio et vidéo gratuitement.
+
+ Une évaluation est organisée chaque
+semaine pour suivre votre progression.
+
+Vous bénéficiez du Wi-Fi gratuit dans
+notre centre.
+
+Des enseignants qualifiés sont à votre
+disposition pour vous accompagner tout au long de votre apprentissage.
+
+L’objectif est de vous assurer un
+apprentissage simple, complet et efficace de l’allemand.
+
+**pour B1 **
+
+Une préparation gratuite aux examens
+officiels est incluse.
+
+Après inscription, vous recevez des
+livres de cours, des supports audio et des vidéos gratuitement.
+
+ Une évaluation est organisée chaque
+semaine pour suivre votre progression.
+
+Vous bénéficiez du Wi-Fi gratuit dans
+notre centre.
+
+Des enseignants qualifiés sont à votre
+disposition pour vous accompagner tout au long de votre apprentissage.
+
+L’objectif est de vous assurer un
+apprentissage solide et efficace de l’allemand.
+
+**pour B2**
+
+Une préparation gratuite aux examens
+officiels est incluse.
+
+Après inscription, vous recevez des
+livres de cours, des supports audio et des vidéos gratuitement.
+
+ Une évaluation est organisée chaque semaine
+pour suivre votre progression.
+
+Vous bénéficiez du Wi-Fi gratuit dans
+notre centre.
+
+Des enseignants qualifiés sont à votre
+disposition pour vous accompagner tout au long de votre apprentissage.
+
+L’objectif est de vous assurer un niveau
+avancé et opérationnel en allemand.
+
+**pour C1**
+
+Une préparation gratuite aux examens
+officiels est incluse.
+
+Après inscription, vous recevez des
+livres de cours, des supports audio et des vidéos gratuitement.
+
+ Une évaluation est organisée chaque
+semaine pour suivre votre progression.
+
+Vous bénéficiez du Wi-Fi gratuit dans
+notre centre.
+
+Des enseignants qualifiés sont à votre
+disposition pour vous accompagner tout au long de votre apprentissage.
+
+L’objectif est de vous assurer une
+maîtrise avancée et académique de l’allemand.
+
+ 
+
+ 
+
+**Pour la durée des cours, il est préférable d’indiquer 4 à 5 semaines au
+lieu du nombre d’heures. À côté, il est aussi mieux de préciser simplement les
+formats : en ligne ou en présentiel.  8-le FAQ  doit etre : Normal
+  0
+  
+  
+  21
+  
+  
+  false
+  false
+  false
+  
+  FR
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+ /* Style Definitions */
+ table.MsoNormalTable
+    {mso-style-name:"Tableau Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-para-margin:0cm;
+    line-height:115%;
+    mso-pagination:widow-orphan;
+    font-size:11.0pt;
+    font-family:"Arial",sans-serif;
+    mso-ansi-language:#000C;}
+
+## **Aidez-vous pour la procédure de visa ?**
+
+Oui. Nous vous accompagnons dans la
+préparation de la procédure de visa pour l’Allemagne, notamment pour les visas
+liés aux cours de langue, aux études universitaires ou aux formations
+professionnelles en Allemagne.
+
+Nous vous aidons à comprendre et à préparer
+les étapes essentielles, telles que :
+
+●    
+la constitution du dossier de
+demande de visa
+
+●    
+l’inscription à un cours de langue
+reconnu
+
+●    
+la préparation des documents
+requis (lettre de motivation, preuves financières, assurance santé, etc.)
+
+●    
+les informations sur le
+rendez-vous à l’ambassade ou au consulat
+
+●    
+l’orientation vers le type de visa
+adapté (cours de langue, études, etc.)
+
+👉 Important : la décision finale
+du visa appartient uniquement aux autorités consulaires allemandes.
+
+Notre objectif est de vous guider et de
+vous préparer efficacement afin de maximiser vos chances de réussite dans le
+processus.
+
+ 
+
+## **Proposez-vous des formations aux examens officiels ?**
+
+Oui. Nous proposons des préparations aux
+principaux examens officiels d’allemand reconnus au Cameroun et à l’international,
+notamment :
+
+●    
+**Goethe-Zertifikat (A1 à C1)**
+
+●    
+**telc Deutsch**
+
+●    
+**ÖSD (Österreichisches
+Sprachdiplom Deutsch)**
+
+●    
+**ECL**
+
+●    
+**TestDaF**
+
+Nos formations incluent :
+
+●    
+des cours adaptés au niveau de
+l’examen
+
+●    
+des exercices basés sur les
+épreuves officielles
+
+●    
+des entraînements en compréhension
+orale et écrite
+
+●    
+des productions écrites et orales
+guidées
+
+●    
+des tests blancs et simulations
+d’examen
+
+🎁 À la fin de chaque niveau **B1,
+B2 ou C1 validé** dans notre centre, vous bénéficiez d’un **mois de
+préparation gratuit à l’examen officiel de votre choix**. 
+
+💻 Nous mettons également à
+disposition des ordinateurs équipés de claviers allemands, afin que les
+apprenants puissent se familiariser avec ce type de clavier et gagner en
+rapidité et en efficacité lors des examens officiels sur ordinateur.
+
+Notre objectif est de vous aider à
+réussir votre examen tout en développant un excellent niveau d’allemand pour
+les études, le travail ou les démarches administratives.
+
+ 
+
+ 
+
+## **Aidez-vous dans la recherche des contrats de formation ?**
+
+Oui. Nous vous accompagnons dans la
+recherche et la compréhension des contrats de formation professionnelle (**Ausbildung**)
+en Allemagne.
+
+Nous vous aidons notamment pour :
+
+●    
+la recherche d’opportunités de
+formation professionnelle
+
+●    
+la préparation du dossier de
+candidature
+
+●    
+la rédaction du CV et de la lettre
+de motivation en allemand
+
+●    
+la préparation aux entretiens
+
+●    
+l’orientation selon le profil et
+le niveau d’allemand de l’apprenant
+
+🎯 Notre objectif est d’aider les
+candidats à augmenter leurs chances d’obtenir un contrat de formation dans des
+domaines recherchés en Allemagne.
+
+ 
+
+## **Faut-il obligatoirement le TestDaF ou un diplôme équivalent
+pour commencer les études en Allemagne ?**
+
+Non. Certaines universités en Allemagne
+acceptent un niveau **B2** pour commencer les études dans certaines
+filières.
+
+📚 Parmi les filières où le niveau
+B2 est accepté par certaines universités , on trouve notamment :
+
+●    
+informatique (Informatik)
+
+●    
+génie civil (Bauingenieurwesen)
+
+●    
+génie mécanique (Maschinenbau)
+
+●    
+électrotechnique (Elektrotechnik) 
+
+🤝 Nous pouvons vous trouver des
+places dans ces universités et vous orienter vers les filières adaptées à votre
+niveau et à votre projet d’études en Allemagne.
+
+ 
+
+ 
+
+ 
+
+## **Quels sont les avantages de suivre des cours à IDS ?**
+
+Suivre des cours d’allemand à IDS vous offre
+plusieurs avantages :
+
+●    
+des cours structurés du niveau **A1
+à C1**
+
+●    
+une préparation complète aux
+examens officiels (Goethe, telc, ÖSD, ECL, TestDaF)
+
+●    
+des exercices pratiques basés sur
+les épreuves réelles
+
+●    
+un suivi pédagogique adapté à
+votre niveau
+
+●    
+des séances de production orale et
+écrite pour améliorer rapidement votre expression
+
+●    
+des tests blancs pour simuler les
+conditions d’examen
+
+🎁 À la fin de chaque niveau **B1,
+B2 ou C1 validé** dans notre centre, vous bénéficiez d’un **mois de
+préparation gratuit à l’examen officiel de votre choix**.
+
+💻 Nous mettons également à
+disposition des ordinateurs équipés de claviers allemands afin de vous
+familiariser avec les conditions réelles des examens numériques.
+
+📶 Vous bénéficiez également d’un **Wi-Fi
+haut débit gratuit** dans notre centre.
+
+👨‍🏫 Nos enseignants sont
+qualifiés, expérimentés et disponibles pour vous accompagner tout au long de
+votre apprentissage.
+
+📅 Les cours ont lieu du **lundi
+au vendredi**, avec une **évaluation chaque samedi** pour suivre votre
+progression.
+
+⏰
+Nous proposons également des **cours du soir**, adaptés aux personnes occupées en journée.
+
+📆 Des **cours du week-end
+(samedi et dimanche)** sont disponibles pour les apprenants ayant une
+disponibilité en dehors de la semaine.
+
+💻 Enfin, des **cours en ligne**
+sont également proposés afin de permettre d’apprendre l’allemand à distance, en
+toute flexibilité.
+
+🎯 L’objectif est de vous
+accompagner efficacement jusqu’à la réussite de vos examens et de vos projets
+d’études ou professionnels en Allemagne., 10-pour la rubrique preparation aux examens : v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+
+ 
+  Normal
+  0
+  
+  
+  21
+  
+  
+  false
+  false
+  false
+  
+  FR
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+ /* Style Definitions */
+ table.MsoNormalTable
+    {mso-style-name:"Tableau Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-para-margin:0cm;
+    line-height:115%;
+    mso-pagination:widow-orphan;
+    font-size:11.0pt;
+    font-family:"Arial",sans-serif;
+    mso-ansi-language:#000C;}
+
+## **Centre de Préparation aux Examens d'Allemand (Cela peut
+servir de titre pour cette rubrique, ou une formule similaire. )**
+
+## ** **
+
+## **Préparation à l’examen ÖSD B1**
+
+Le niveau **ÖSD B1** est destiné aux
+candidats souhaitant démontrer leur capacité à communiquer de manière autonome
+dans les situations courantes de la vie quotidienne, des études ou du travail.
+
+### **📚 Notre préparation comprend :**
+
+●    
+entraînement intensif aux quatre
+compétences : **Lesen, Hören, Schreiben et Sprechen**
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau **B1**
+
+●    
+exercices basés sur les sujets
+officiels ÖSD
+
+●    
+techniques et stratégies pour
+réussir chaque épreuve
+
+●    
+préparation spécifique à l’épreuve
+orale
+
+●    
+correction détaillée des
+productions écrites et orales
+
+●    
+**tests blancs chronométrés** dans les conditions réelles de l’examen
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les critères d’évaluation et les attentes des
+correcteurs ÖSD
+
+●    
+**Wi-Fi haut débit et illimité gratuit** dans notre centre
+
+💰 **Tarif : 35 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B1
+dans notre centre.**
+
+---
+
+## **Préparation à l’examen ÖSD B2**
+
+Le niveau **ÖSD B2** s’adresse aux
+candidats souhaitant poursuivre des études, une formation professionnelle ou
+une carrière dans un environnement germanophone.
+
+### **📚 Notre préparation comprend :**
+
+●    
+entraînement intensif aux quatre
+compétences : **Lesen, Hören, Schreiben et Sprechen**
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau **B2**
+
+●    
+exercices basés sur les sujets
+officiels ÖSD
+
+●    
+techniques et stratégies pour
+réussir chaque épreuve
+
+●    
+préparation spécifique à l’épreuve
+orale
+
+●    
+correction détaillée des
+productions écrites et orales
+
+●    
+**tests blancs chronométrés** dans les conditions réelles de l’examen
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les critères d’évaluation et les attentes des
+correcteurs ÖSD
+
+●    
+**Wi-Fi haut débit et illimité
+gratuit** dans notre centre
+
+💰 **Tarif : 40 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B2
+dans notre centre.**
+
+ 
+
+ 
+
+## **Préparation à l’examen ECL B1**
+
+Le niveau **ECL B1** évalue votre
+capacité à communiquer dans des situations simples de la vie quotidienne, des
+études ou du travail.
+
+### **📚 Notre préparation comprend :**
+
+●    
+entraînement intensif aux quatre
+compétences : compréhension écrite, compréhension orale, expression écrite,
+expression orale
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau **B1**
+
+●    
+exercices basés sur le format
+officiel de l’examen ECL
+
+●    
+techniques et stratégies pour
+réussir chaque épreuve
+
+●    
+préparation spécifique à l’épreuve
+orale
+
+●    
+correction détaillée des
+productions écrites et orales
+
+●    
+**tests blancs chronométrés** dans les conditions réelles de l’examen
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les exigences et critères d’évaluation de l’ECL
+
+●    
+**Wi-Fi haut débit et illimité
+gratuit** dans notre centre
+
+💰 **Tarif : 35 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B1
+dans notre centre.**
+
+---
+
+## **🌍 Préparation à l’examen ECL B2**
+
+Le niveau **ECL B2** correspond à une
+utilisation autonome et plus avancée de la langue dans un contexte académique
+ou professionnel.
+
+### **📚 Notre préparation comprend :**
+
+●    
+entraînement intensif aux quatre
+compétences : compréhension écrite, compréhension orale, expression écrite,
+expression orale
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau **B2**
+
+●    
+exercices basés sur le format
+officiel de l’examen ECL
+
+●    
+techniques et stratégies pour
+réussir chaque épreuve
+
+●    
+préparation intensive à l’épreuve
+orale
+
+●    
+correction détaillée des
+productions écrites et orales
+
+●    
+**tests blancs chronométrés** dans les conditions réelles de l’examen
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les exigences et critères d’évaluation de l’ECL
+
+●    
+**Wi-Fi haut débit et illimité
+gratuit** dans notre centre
+
+💰 **Tarif : 40 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B2
+dans notre centre.**
+
+ 
+
+ 
+
+**L’examen telc étant digital, nous vous
+proposons le programme de formation suivant 
+**
+
+---
+
+## **📘 telc B1**
+
+💰 **Tarif : 40 000 FCFA**
+
+### **📚 Méthodologie telc (format digital) :**
+
+●    
+familiarisation avec l’examen telc
+sur **ordinateur avec clavier allemand**
+
+●    
+entraînement intensif aux quatre
+compétences : Lesen, Hören, Schreiben, Sprechen
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau B1
+
+●    
+exercices basés sur le format
+officiel telc digital
+
+●    
+préparation à l’expression orale
+(simulations en binôme)
+
+●    
+entraînement à l’expression écrite
+sur ordinateur
+
+●    
+tests blancs chronométrés en conditions
+réelles
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les exigences telc
+
+●    
+Wi-Fi haut débit et illimité
+gratuit dans notre centre
+
+●    
+ordinateurs avec clavier allemand
+mis à disposition pour la simulation de l’examen
+
+🎁 Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B1
+dans notre centre.
+
+---
+
+## **📗 telc B2**
+
+💰 **Tarif : 45 000 FCFA**
+
+### **📚 Méthodologie telc (format digital) :**
+
+●    
+préparation complète à l’examen
+telc sur **ordinateur avec clavier allemand**
+
+●    
+entraînement intensif aux quatre
+compétences : Lesen, Hören, Schreiben, Sprechen
+
+●    
+révision de la grammaire et du
+vocabulaire essentiels au niveau B2
+
+●    
+exercices basés sur le format
+officiel telc digital
+
+●    
+développement de l’argumentation
+et de l’expression écrite avancée
+
+●    
+préparation intensive à l’épreuve
+orale
+
+●    
+tests blancs chronométrés en
+conditions réelles
+
+●    
+accompagnement par des enseignants
+expérimentés maîtrisant les attentes des correcteurs telc
+
+●    
+Wi-Fi haut débit et illimité
+gratuit dans notre centre
+
+●    
+ordinateurs avec clavier allemand
+mis à disposition pour la simulation complète de l’examen
+
+🎁 Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B2
+dans notre centre. 
+
+ 
+
+ 
+
+## **Préparation à l'examen Goethe-Zertifikat B1**
+
+Le niveau Goethe B1 est destiné aux
+candidats souhaitant prouver leur capacité à communiquer de manière autonome en
+allemand dans les situations de la vie quotidienne, des études, de la formation
+professionnelle ou du travail.
+
+📚 **Notre préparation comprend :**
+
+✓
+entraînement intensif aux quatre compétences : Lesen, Hören, Schreiben et
+Sprechen
+
+✓
+révision complète de la grammaire et du vocabulaire essentiels au niveau B1
+
+✓
+exercices pratiques basés sur les modèles officiels du Goethe-Institut
+
+✓
+techniques et stratégies pour réussir chaque épreuve de l'examen
+
+✓
+préparation spécifique à l'épreuve orale individuelle et en binôme
+
+✓
+correction détaillée et personnalisée des productions écrites
+
+✓
+simulations d'entretiens oraux avec évaluation et conseils d'amélioration
+
+✓
+examens blancs complets dans les conditions réelles de l'examen
+
+✓
+accompagnement par des enseignants expérimentés maîtrisant les critères
+d'évaluation du Goethe-Institut
+
+✓
+conseils pratiques pour la gestion du temps et la réduction du stress le jour
+de l'examen
+
+✓
+Wi-Fi haut débit et illimité gratuit dans notre centre
+
+💰 **Tarif : 35 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B1
+dans notre centre.**
+
+ 
+
+ 
+
+## **Préparation à l'examen Goethe-Zertifikat B2**
+
+Le niveau Goethe B2 est destiné aux
+candidats souhaitant démontrer une maîtrise avancée de l'allemand leur
+permettant d'étudier, de suivre une formation professionnelle ou de travailler
+dans un environnement germanophone.
+
+📚 **Notre préparation comprend :**
+
+✓
+entraînement intensif aux quatre compétences : Lesen, Hören, Schreiben et
+Sprechen
+
+✓
+révision approfondie de la grammaire et du vocabulaire du niveau B2
+
+✓
+exercices pratiques basés sur les modèles officiels du Goethe-Institut
+
+✓
+techniques et stratégies pour réussir chaque partie de l'examen
+
+✓
+préparation spécifique aux tâches complexes de production écrite et orale
+
+✓
+correction détaillée et personnalisée des productions écrites
+
+✓
+simulations d'épreuves orales avec évaluation individuelle
+
+✓
+examens blancs complets dans les conditions réelles de l'examen
+
+✓
+accompagnement par des enseignants expérimentés maîtrisant les critères
+d'évaluation du Goethe-Institut
+
+✓
+conseils méthodologiques pour optimiser ses performances le jour de l'examen
+
+✓
+Wi-Fi haut débit et illimité gratuit dans notre centre
+
+💰 **Tarif : 40 000 FCFA**
+
+🎁 **Cette préparation est
+entièrement gratuite pour les apprenants ayant suivi les cours de niveau B2
+dans notre centre.**
+
+** **
+
+## **Préparation à l'examen TestDaF**
+
+**Le TestDaF est destiné aux candidats
+souhaitant poursuivre des études supérieures dans les universités allemandes ou
+justifier d'un niveau avancé d'allemand à des fins académiques et
+professionnelles.**
+
+**📚 Notre préparation comprend :**
+
+**✓
+entraînement intensif aux quatre compétences : Lesen, Hören, Schreiben et
+Sprechen**
+
+**✓
+familiarisation complète avec la structure officielle du TestDaF**
+
+**✓
+entraînement aux tâches académiques fréquemment rencontrées dans l'examen**
+
+**✓
+développement des techniques de compréhension de textes universitaires et de
+conférences**
+
+**✓
+préparation à la rédaction de textes argumentatifs et analytiques**
+
+**✓
+préparation spécifique à l'épreuve orale assistée par ordinateur**
+
+**✓
+correction détaillée des productions écrites selon les critères du TestDaF**
+
+**✓
+simulations complètes du TestDaF dans les conditions réelles de l'examen**
+
+**✓
+stratégies de gestion du temps pour chaque épreuve**
+
+**✓
+accompagnement par des enseignants expérimentés dans la préparation aux études
+universitaires en Allemagne**
+
+**✓
+Wi-Fi haut débit et illimité gratuit dans notre centre**
+
+**💰 Tarif : 50 000 FCFA**
+
+** **
+
+** **
+
+** **
+
+**chaque prépa dure 1 mois**
+
+** **. 11- dans la rubrique offre speciale : Normal
+  0
+  
+  
+  21
+  
+  
+  false
+  false
+  false
+  
+  FR
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+ /* Style Definitions */
+ table.MsoNormalTable
+    {mso-style-name:"Tableau Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-para-margin:0cm;
+    line-height:115%;
+    mso-pagination:widow-orphan;
+    font-size:11.0pt;
+    font-family:"Arial",sans-serif;
+    mso-ansi-language:#000C;}
+
+# **Offres Spéciales Allemagne pour étudiant**
+
+Nous proposons des packs complets pour
+accompagner les étudiants de la formation en langue allemande jusqu’à leur
+projet d’études ou d’installation en Allemagne.
+
+## **Pack Étudiant Standard**
+
+### **💰pour les cours en semaine  : 900 000 FCFA**
+
+### **💰pour les cours du  
+Week-end : 1 000 000 FCFA**
+
+### **✔ Inclus :******
+
+**✓
+Formation A1 à B2
+
+ ✓ Frais d’inscription inclus
+
+ ✓ Préparation aux examens officiels
+(Goethe, ÖSD, telc, ECL, TestDaF)
+
+ ✓ Pré-inscription dans une université ou
+programme en Allemagne
+
+ ✓ CV allemand professionnel
+
+ ✓ Lettre de motivation allemande
+
+ ✓ Préparation aux entretiens
+
+ ✓ Assistance aux candidatures
+
+ ✓ Dossier visa complet
+
+ ✓ Traduction des diplômes et documents
+officiels**
+
+**✓
+Suivi jusqu’à la décision du visa**
+
+**✓
+Accueil et orientation en Allemagne**
+
+** **
+
+## **Pack Étudiant Sérénité**
+
+### **💰pour les cours en semaine : 1 000 000 FCFA**
+
+### **💰pour les cours du Week-end : 1 100 000 FCFA**
+
+### **✔ Inclus :******
+
+**✓
+Tout le contenu du Pack Étudiant Standard 
+
+ ✓ Remboursement partiel de 50 % en cas
+de refus de visa, selon les conditions du contrat**
+
+### **⚠️ Conditions importantes :**
+
+**Le remboursement partiel de 50 % en
+cas de refus de visa s’applique uniquement si :**
+
+●     **le dossier a été complet et conforme aux recommandations du centre**
+
+●     **le candidat a suivi toutes les étapes d’accompagnement**
+
+●     **le candidat a été ponctuel et présent à toutes les étapes, y compris le
+jour de l’entretien**
+
+●     **le refus de visa n’est pas lié à une fraude, un document falsifié ou un
+manque de coopération du candidat**
+
+** **
+
+### **Objectif du Pack Sérénité**
+
+**Offrir aux candidats une tranquillité
+d’esprit maximale en combinant accompagnement complet + réduction du risque
+financier.**
+
+** **
+
+## **CANDIDATS EXTERNES (B2 déjà obtenu ailleurs)**
+
+●     **Pack Standard : 500 000 FCFA**
+
+●     **Pack Sérénité : 600 000 FCFA**
+
+** **
+
+👉 Important : la décision finale
+du visa appartient uniquement aux autorités consulaires allemandes.
+
+Notre objectif est de vous guider et de
+vous préparer efficacement afin de maximiser vos chances de réussite dans le
+processus.
+
+** **
+
+** **
+
+** **
+
+**
+
+  **
+
+** **
+
+** ** 12- nouvelle hero section : Normal
+  0
+  
+  
+  21
+  
+  
+  false
+  false
+  false
+  
+  FR
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+ /* Style Definitions */
+ table.MsoNormalTable
+    {mso-style-name:"Tableau Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-para-margin:0cm;
+    line-height:115%;
+    mso-pagination:widow-orphan;
+    font-size:11.0pt;
+    font-family:"Arial",sans-serif;
+    mso-ansi-language:#000C;}
+
+Une phrase principale fixe sur la page
+d’accueil :
+
+ **« De A1 à l’Allemagne, nous vous
+accompagnons jusqu’au bout. »**
+
+Un **slider d’images (diaporama)** en haut
+du site, avec des images qui défilent automatiquement, montrant : ( je peux
+faire les images, tu me donnes juste la taille qu'il faut)
+
+●    
+cours d’allemand A1 à C1
+
+●    
+préparation aux examens (Goethe,
+ÖSD, telc, ECL, TestDaF)
+
+●    
+visa Allemagne
+
+●    
+pré-inscription universitaire
+
+●    
+accueil et installation en
+Allemagne
+
+●    
+offres/packs du centre
+
+Un **bouton WhatsApp flottant**, toujours
+visible sur le site :, utilise pour l'instant les images dans : C:\Users\KleinDev\Documents\projets\ids-cameroun\public\images, 13-le numero whatsapp c'est : +49 1573 2878223, 14-pour l'envoie des mail: EMAIL_ADDRESS = "boyomm@yahoo.com"
+EMAIL_PASSWORD = "ngupcvcbdiwqtxnv", enlever les chifre, le test "certifier ..."  sur la d'acceuille et le hero section particulierement , 14-quand un etudiant s'inscrit , il recoit un mail avec la facture du cours au qu'elle il veut participer et le numero au qu'elle il doit effectuer le paiement et envoyer la capture d'ecrant par whatsapp . apres quoi l'admin valide som inscription , et dorsormais il peut acceder a l'espace etudiant qui apparaitra dans la navbar . ou il poura voire les cours ranger par audio , video , et text au quel il a souscrit . de meme prevoires les cotes admin la validation d'inscription et la publication des cours (audion , video , texte ). le tout bien structurer soit inpirer et professionelle . NB: n'utilise pas les icones et logo generer par IA mais react-icons ou lucid-react  

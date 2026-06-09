@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 
-const FAQ_KEYS = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6'] as const;
+const FAQ_KEYS = ['q1', 'q2', 'q3', 'q4', 'q5'] as const;
 
 export default function FaqPage() {
   const t = useTranslations('FAQ');

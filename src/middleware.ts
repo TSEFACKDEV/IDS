@@ -1,7 +1,7 @@
 /**
- * proxy.ts — Next.js 16 (remplace middleware.ts)
+ * middleware.ts — Next.js 16 (App Router)
  * Tourne en Edge Runtime : seul authConfig (sans Prisma/crypto) est importé.
- * Le JWT est vérifié via Web Crypto API (Edge-compatible).
+ * Combine next-intl (routing i18n) + next-auth (protection des routes).
  */
 import NextAuth from 'next-auth';
 import { authConfig } from '@/auth.config';
@@ -17,15 +17,16 @@ export default auth(function proxy(req) {
 
   // Routes protégées par authentification
   const isAdminPath = /^\/(fr|de)\/admin(\/|$)/.test(pathname);
+  const isStudentPath = /^\/(fr|de)\/espace-etudiant(\/|$)/.test(pathname);
 
-  if (isAdminPath) {
+  if (isAdminPath || isStudentPath) {
     if (!req.auth) {
       const locale = (pathname.split('/')[1] as 'fr' | 'de') ?? 'fr';
       const loginUrl = new URL(`/${locale}/connexion`, req.url);
       loginUrl.searchParams.set('callbackUrl', pathname);
       return Response.redirect(loginUrl);
     }
-    if (req.auth.user?.role !== 'ADMIN') {
+    if (isAdminPath && req.auth.user?.role !== 'ADMIN') {
       const locale = (pathname.split('/')[1] as 'fr' | 'de') ?? 'fr';
       return Response.redirect(new URL(`/${locale}`, req.url));
     }

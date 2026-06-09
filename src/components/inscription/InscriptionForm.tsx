@@ -27,7 +27,7 @@ const inscriptionSchema = z.object({
   email: z.string().email('errEmail'),
 
   // Étape 2 — Formation
-  niveau: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']).refine((v) => !!v, {
+  niveau: z.enum(['A1', 'A2', 'B1', 'B2', 'C1']).refine((v) => !!v, {
     message: 'errNiveau',
   }),
   typeCours: z.enum(['GROUPE', 'INDIVIDUEL', 'INTENSIF', 'SEMI_INTENSIF', 'EN_LIGNE']).refine(

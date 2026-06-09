@@ -52,29 +52,43 @@ export default function TopBar() {
         </div>
 
         {/* Switcher langue */}
-        <div className="flex items-center gap-1 ml-auto">
+        <div className="flex items-center gap-2 ml-auto">
           <button
             onClick={() => switchLocale('fr')}
-            className={`px-2 py-0.5 rounded text-xs font-semibold transition-colors ${
-              locale === 'fr'
-                ? 'bg-ids-red-500 text-white'
-                : 'text-ids-gray-400 hover:text-white'
-            }`}
             aria-label="Français"
+            title="Français"
+            className={`flex items-center gap-1.5 px-2 py-0.5 rounded transition-all duration-200 ${
+              locale === 'fr'
+                ? 'ring-1 ring-ids-red-500 opacity-100'
+                : 'opacity-50 hover:opacity-80'
+            }`}
           >
-            FR
+            {/* Drapeau France */}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" className="w-5 h-3.25 rounded-sm shrink-0">
+              <rect width="1" height="2" fill="#002395" />
+              <rect x="1" width="1" height="2" fill="#ffffff" />
+              <rect x="2" width="1" height="2" fill="#ED2939" />
+            </svg>
+            <span className={`text-[10px] font-bold leading-none ${locale === 'fr' ? 'text-white' : 'text-ids-gray-400'}`}>FR</span>
           </button>
           <span className="text-ids-gray-600 select-none">|</span>
           <button
             onClick={() => switchLocale('de')}
-            className={`px-2 py-0.5 rounded text-xs font-semibold transition-colors ${
-              locale === 'de'
-                ? 'bg-ids-red-500 text-white'
-                : 'text-ids-gray-400 hover:text-white'
-            }`}
             aria-label="Deutsch"
+            title="Deutsch"
+            className={`flex items-center gap-1.5 px-2 py-0.5 rounded transition-all duration-200 ${
+              locale === 'de'
+                ? 'ring-1 ring-ids-red-500 opacity-100'
+                : 'opacity-50 hover:opacity-80'
+            }`}
           >
-            DE
+            {/* Drapeau Allemagne */}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" className="w-5 h-3.25 rounded-sm shrink-0">
+              <rect width="5" height="1" y="0" fill="#000000" />
+              <rect width="5" height="1" y="1" fill="#DD0000" />
+              <rect width="5" height="1" y="2" fill="#FFCE00" />
+            </svg>
+            <span className={`text-[10px] font-bold leading-none ${locale === 'de' ? 'text-white' : 'text-ids-gray-400'}`}>DE</span>
           </button>
         </div>
       </div>

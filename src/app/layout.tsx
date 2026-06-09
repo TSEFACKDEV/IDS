@@ -13,7 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning>
+    <html suppressHydrationWarning data-scroll-behavior="smooth">
+      <head>
+          <link rel="icon" type="image/png" href="/images/logos/logo.png"></link>
+      </head>
       <body>{children}</body>
     </html>
   );

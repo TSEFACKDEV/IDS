@@ -324,7 +324,7 @@ function InscriptionPDF({ inscription: ins }: InscriptionPDFProps) {
       React.createElement(
         View,
         { style: styles.footer },
-        React.createElement(Text, { style: styles.footerText }, 'IDS Cameroun — Douala, Akwa & Yaoundé, Bastos'),
+        React.createElement(Text, { style: styles.footerText }, 'IDS Cameroun — Biyem-Assi, Carrefour Scalom, Immeuble Africa Finance, Yaoundé'),
         React.createElement(Text, { style: styles.footerText }, '+237 675 123 456 | info@ids-cameroun.com')
       )
     )
